@@ -1,0 +1,63 @@
+{
+    "article": {
+        "Name": "",
+        "Plant": "",
+        "CreatedBy": "",
+        "OfficeNo": "",
+        "JobNo": "",
+        "InitialQty": "0.00"
+    },
+    "updatedQty": 0.00,
+    "officeData":{
+        "officeNo1": ["Ojob1", "Ojob2"],
+        "officeNo2": ["Ojob5", "Ojob6", "Ojob7", "Ojob8"],
+        "officeNo3": ["Ojob3", "Ojob4"]
+                             
+    },
+    "officeData1":[
+        {
+           "text":"officeNo1"
+        },
+        {
+           "text":"officeNo2"
+        },
+        {
+           "text":"officeNo3"
+        } 
+    ],
+    "Object":[
+        {
+            "text":"Ojob1",
+            "relation":"officeNo1"
+        },
+        {
+            "text":"Ojob2",
+            "relation":"officeNo1"
+        },
+        {
+            "text":"Ojob3",
+            "relation":"officeNo3"
+        },
+        {
+            "text":"Ojob4",
+            "relation":"officeNo3"
+        },
+        {
+            "text":"Ojob5",
+            "relation":"officeNo2"
+        },
+        {
+            "text":"Ojob6",
+            "relation":"officeNo2"
+        },
+        {
+            "text":"Ojob7",
+            "relation":"officeNo2"
+        },
+        {
+            "text":"Ojob8",
+            "relation":"officeNo2"
+        }
+    ]
+    
+}
